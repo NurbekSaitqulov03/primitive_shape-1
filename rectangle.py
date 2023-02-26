@@ -1,6 +1,6 @@
 from polygon import Polygon
 
 class Rectangle(Polygon):
-    pass
-maydon = Rectangle(2, 40)
-print(maydon.getArea())
+    def __init__(self, height, width) -> None:
+        super().__init__(height, width)
+a = Rectangle(10, 20)
